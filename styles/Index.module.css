@@ -1,0 +1,35 @@
+.Home{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.Home .AuthContainer{
+    width: 40%;
+}
+
+.Home .AuthContainer div{
+    padding-top: 1em;
+}
+.Home .AuthContainer div input{
+    text-align: right;
+}
+
+.Home .AuthContainer div button{
+    
+}
+
+@media screen and (max-width:800px) {
+ 
+    .Home .AuthContainer{
+        height: 5em;
+        width: 100%;
+    }
+
+}
